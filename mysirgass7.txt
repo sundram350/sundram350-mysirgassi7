@@ -1,0 +1,10 @@
+Ans=1 main() { int n; scanf("%d",&n); if(n>0)printf("Positive"); else printf("Non positive"); }
+Ans=2 main() { int n; scanf("%d",&n); if(n%5==0)printf("Divisible by five"); else printf("Not Divisible by five"); }
+Ans=3 main() { int n; scanf("%d",&n); if(n%2==0)printf("Even"); else printf("Odd"); }
+Ans=4 main() {}
+Ans=5 main() { int i,count=0,n; scanf("%d",&n); while(n>0){ n/=10; count++; } if(count==3) printf("three digit"); else printf("not three digit");
+
+Ans=6 main() { int a,b; scanf("%d%d",&a,&b); if(a>b) a; else b; if(a==b) printf("%d ",a); }
+Ans=8 main() { int a,b,c,d,e,total,per; scanf("%d%d%d%d%d",&a,&b,&c,&d,&e); total=a+b+c+d+e; per=total/5; printf("%d",per); }
+Ans=9 main() { int i,j; char a; scanf("%c",&a);  for(i='a',j='A';i<='z',j<='Z';i++,j++) if(i>='a'&&i<='z')printf("lowercase") else if(j>='A'&&j<='Z') printf("Uppercase");}
+Ans=10 main() 
